@@ -751,6 +751,13 @@ namespace ts {
             description: Diagnostics.List_of_folders_to_include_type_definitions_from
         },
         {
+            name: "resolveFromOutDir",
+            type: "boolean",
+            affectsModuleResolution: true,
+            category: Diagnostics.Module_Resolution_Options,
+            description: Diagnostics.Allow_resolving_files_relative_to_the_output_directory
+        },
+        {
             name: "types",
             type: "list",
             element: {
